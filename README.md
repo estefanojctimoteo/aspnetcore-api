@@ -12,6 +12,4 @@
 
 2. On PMC, select Core_Api.Infra.Data as the default project
 
-3. Input: add-migration [name-of-migration] -Context FirstContext
-
-4. Input: update-database -Context FirstContext
+3. Input: update-database -Context FirstContext
