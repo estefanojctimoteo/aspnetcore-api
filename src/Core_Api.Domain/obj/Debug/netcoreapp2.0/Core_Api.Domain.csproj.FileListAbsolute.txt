@@ -1,0 +1,12 @@
+C:\Projetos\CSharp\Core\Core_Api\src\Core_Api.Domain\bin\Debug\netcoreapp2.0\Core_Api.Domain.deps.json
+C:\Projetos\CSharp\Core\Core_Api\src\Core_Api.Domain\bin\Debug\netcoreapp2.0\Core_Api.Domain.dll
+C:\Projetos\CSharp\Core\Core_Api\src\Core_Api.Domain\bin\Debug\netcoreapp2.0\Core_Api.Domain.pdb
+C:\Projetos\CSharp\Core\Core_Api\src\Core_Api.Domain\bin\Debug\netcoreapp2.0\Core_Api.Domain.Core.dll
+C:\Projetos\CSharp\Core\Core_Api\src\Core_Api.Domain\bin\Debug\netcoreapp2.0\Core_Api.Domain.Core.pdb
+C:\Projetos\CSharp\Core\Core_Api\src\Core_Api.Domain\obj\Debug\netcoreapp2.0\Core_Api.Domain.csprojAssemblyReference.cache
+C:\Projetos\CSharp\Core\Core_Api\src\Core_Api.Domain\obj\Debug\netcoreapp2.0\Core_Api.Domain.csproj.CoreCompileInputs.cache
+C:\Projetos\CSharp\Core\Core_Api\src\Core_Api.Domain\obj\Debug\netcoreapp2.0\Core_Api.Domain.AssemblyInfoInputs.cache
+C:\Projetos\CSharp\Core\Core_Api\src\Core_Api.Domain\obj\Debug\netcoreapp2.0\Core_Api.Domain.AssemblyInfo.cs
+C:\Projetos\CSharp\Core\Core_Api\src\Core_Api.Domain\obj\Debug\netcoreapp2.0\Core_Api.Domain.csproj.CopyComplete
+C:\Projetos\CSharp\Core\Core_Api\src\Core_Api.Domain\obj\Debug\netcoreapp2.0\Core_Api.Domain.dll
+C:\Projetos\CSharp\Core\Core_Api\src\Core_Api.Domain\obj\Debug\netcoreapp2.0\Core_Api.Domain.pdb

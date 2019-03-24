@@ -1,0 +1,9 @@
+C:\Projetos\CSharp\Core\Core_Api\src\Core_Api.Infra.CrossCutting.AspNetFilters\bin\Debug\netcoreapp2.0\Core_Api.Infra.CrossCutting.AspNetFilters.deps.json
+C:\Projetos\CSharp\Core\Core_Api\src\Core_Api.Infra.CrossCutting.AspNetFilters\bin\Debug\netcoreapp2.0\Core_Api.Infra.CrossCutting.AspNetFilters.dll
+C:\Projetos\CSharp\Core\Core_Api\src\Core_Api.Infra.CrossCutting.AspNetFilters\bin\Debug\netcoreapp2.0\Core_Api.Infra.CrossCutting.AspNetFilters.pdb
+C:\Projetos\CSharp\Core\Core_Api\src\Core_Api.Infra.CrossCutting.AspNetFilters\obj\Debug\netcoreapp2.0\Core_Api.Infra.CrossCutting.AspNetFilters.csprojAssemblyReference.cache
+C:\Projetos\CSharp\Core\Core_Api\src\Core_Api.Infra.CrossCutting.AspNetFilters\obj\Debug\netcoreapp2.0\Core_Api.Infra.CrossCutting.AspNetFilters.csproj.CoreCompileInputs.cache
+C:\Projetos\CSharp\Core\Core_Api\src\Core_Api.Infra.CrossCutting.AspNetFilters\obj\Debug\netcoreapp2.0\Core_Api.Infra.CrossCutting.AspNetFilters.AssemblyInfoInputs.cache
+C:\Projetos\CSharp\Core\Core_Api\src\Core_Api.Infra.CrossCutting.AspNetFilters\obj\Debug\netcoreapp2.0\Core_Api.Infra.CrossCutting.AspNetFilters.AssemblyInfo.cs
+C:\Projetos\CSharp\Core\Core_Api\src\Core_Api.Infra.CrossCutting.AspNetFilters\obj\Debug\netcoreapp2.0\Core_Api.Infra.CrossCutting.AspNetFilters.dll
+C:\Projetos\CSharp\Core\Core_Api\src\Core_Api.Infra.CrossCutting.AspNetFilters\obj\Debug\netcoreapp2.0\Core_Api.Infra.CrossCutting.AspNetFilters.pdb
