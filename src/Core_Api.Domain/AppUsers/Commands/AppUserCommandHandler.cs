@@ -36,16 +36,16 @@ namespace Core_Api.Domain.AppUsers.Commands
                 return Task.CompletedTask;
             }
 
-            var appUserCore = _appUserRepository.GetById(appUser.UserID);
+            var appUserCore = _appUserRepository.GetById(appUser.Id);
 
-            if (appUserCore != null && appUserCore.UserID == appUser.UserID)
+            if (appUserCore != null && appUserCore.Id == appUser.Id)
             {
                 _mediator.PublishEvent(new DomainNotification(message.MessageType, "An user with this email already exists."));
                 return Task.CompletedTask;
             }
 
             _appUserRepository.Add(appUser);
-            _mediator.PublishEvent(new AppUserRegisteredEvent(appUser.UserID, appUser.Email));
+            _mediator.PublishEvent(new AppUserRegisteredEvent(appUser.Id, appUser.Email));
 
             return Task.CompletedTask;
         }

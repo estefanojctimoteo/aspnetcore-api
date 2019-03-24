@@ -11,7 +11,7 @@ namespace Core_Api.Services.Api.AutoMapper
             #region Usuario
 
             CreateMap<AppUserViewModel, RemoveAppUserCommand>()
-                .ConstructUsing(f => new RemoveAppUserCommand(f.UserID));
+                .ConstructUsing(f => new RemoveAppUserCommand(f.Id));
 
             #endregion
         }

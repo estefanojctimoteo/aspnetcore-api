@@ -208,7 +208,7 @@ namespace Core_Api.Services.Api.Controllers
 
                     var usuarioCore_Api = _appUserRepository.GetById(Guid.Parse(userEF.Id));
 
-                    if (usuarioCore_Api == null || usuarioCore_Api.UserID != Guid.Parse(userEF.Id))
+                    if (usuarioCore_Api == null || usuarioCore_Api.Id != Guid.Parse(userEF.Id))
                     {
                         await _userManager.DeleteAsync(userEF);
                         throw new Exception("Couldn't create the user.");
@@ -290,7 +290,7 @@ namespace Core_Api.Services.Api.Controllers
         [Authorize(Policy = "CanUpdateUsers")]
         public IActionResult ExcluirUsuario(Guid id)
         {
-            var usuarioViewModel = new AppUserViewModel { UserID = id };
+            var usuarioViewModel = new AppUserViewModel { Id = id };
             var usuarioCommand = _mapper.Map<RemoveAppUserCommand>(usuarioViewModel);
 
             _mediator.SendCommand(usuarioCommand);
@@ -369,7 +369,7 @@ namespace Core_Api.Services.Api.Controllers
                 expires_in = DateTime.Now.AddMinutes(_tokenDescriptor.MinutesValid),
                 usuario = new
                 {
-                    id = usuarioCore.UserID,
+                    id = usuarioCore.Id,
                     claims = userClaims.Select(c => new { c.Type, c.Value }),
                     name = !string.IsNullOrEmpty(userName.Trim()) ? userName : usuarioCore.Email,
                     email = usuarioCore.Email

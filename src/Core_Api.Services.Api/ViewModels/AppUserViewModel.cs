@@ -5,7 +5,7 @@ namespace Core_Api.Services.Api.ViewModels
     public class AppUserViewModel
     {
         [Key]
-        public Guid UserID { get; set; }
+        public Guid Id { get; set; }
 
         [Required]
         [EmailAddress]

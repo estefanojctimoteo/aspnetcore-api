@@ -10,8 +10,8 @@ namespace Core_Api.Domain.Core.Models
         {
             ValidationResult = new ValidationResult();
         }
-        
-        public Guid UserID { get; protected set; }
+                
+        public Guid Id { get; protected set; }
         public bool Deleted { get; protected set; }
         public void ExecuteDeletion()
         {
@@ -29,7 +29,7 @@ namespace Core_Api.Domain.Core.Models
             if (ReferenceEquals(this, compareTo)) return true;
             if (ReferenceEquals(null, compareTo)) return false;
 
-            return UserID.Equals(compareTo.UserID);
+            return Id.Equals(compareTo.Id);
         }
 
         public static bool operator ==(EntityUser<T> a, EntityUser<T> b)
@@ -50,12 +50,12 @@ namespace Core_Api.Domain.Core.Models
 
         public override int GetHashCode()
         {
-            return (GetType().GetHashCode() * 907) + UserID.GetHashCode();
+            return (GetType().GetHashCode() * 907) + Id.GetHashCode();
         }
 
         public override string ToString()
         {
-            return GetType().Name + "[Id = " + UserID + "]";
+            return GetType().Name + "[Id = " + Id + "]";
         }
     }
 }

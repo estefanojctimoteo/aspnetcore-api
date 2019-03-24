@@ -6,3 +6,12 @@
 
 ## Patterns: code first, dependency injection.
 
+### Setup:
+
+1. Open the package manager console (Menu View > Other Windows > Package Manager Console)
+
+2. On PMC, select Core_Api.Infra.Data as the default project
+
+3. Input: add-migration [name-of-migration] -Context FirstContext
+
+4. Input: update-database -Context FirstContext

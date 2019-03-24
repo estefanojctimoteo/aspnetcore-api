@@ -9,7 +9,7 @@ namespace Core_Api.Domain.AppUsers
 
         public AppUser(Guid userid, string email)
         {
-            UserID = userid;
+            Id = userid;
             Email = email;
             Name = "";
         }

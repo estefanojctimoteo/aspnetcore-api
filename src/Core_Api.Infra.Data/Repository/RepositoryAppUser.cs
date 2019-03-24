@@ -39,7 +39,7 @@ namespace Core_Api.Infra.Data.Repository
 
         public virtual TEntity GetById(Guid id)
         {
-            return Db.Set<TEntity>().AsNoTracking().FirstOrDefault(t => t.Deleted == false && t.UserID == id);
+            return Db.Set<TEntity>().AsNoTracking().FirstOrDefault(t => t.Deleted == false && t.Id == id);
         }
 
         public virtual IEnumerable<TEntity> GetAll()

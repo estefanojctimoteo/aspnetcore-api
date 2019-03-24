@@ -12,35 +12,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Migrations\20180514144128_teste5.cs" />
-    <Compile Remove="Migrations\20180521194355_teste6.cs" />
-    <Compile Remove="Migrations\20180521204423_Teste3.cs" />
-    <Compile Remove="Migrations\20180521205843_Teste3.cs" />
-    <Compile Remove="Migrations\20180521210144_Teste3.cs" />
-    <Compile Remove="Migrations\20180522181434_teste4.cs" />
-    <Compile Remove="Migrations\20180607195335_teste7.cs" />
-    <Compile Remove="Migrations\20180608125708_teste8.cs" />
-    <Compile Remove="Migrations\20180608144508_teste10.cs" />
-    <Compile Remove="Migrations\20180612183813_teste14.cs" />
-    <Compile Remove="Migrations\20180618120324_TipoTabelaTipoDiversos.cs" />
-    <Compile Remove="Migrations\20180618121439_TipoTabelaTipoDiversos.cs" />
-    <Compile Remove="Migrations\20180621181553_tributo-aliquota.cs" />
-    <Compile Remove="Migrations\20180621182127_tributo-aliquota.cs" />
-    <Compile Remove="Migrations\20180621182618_tributo-aliquota.cs" />
-    <Compile Remove="Migrations\20180621191910_tributo-aliquota.cs" />
-    <Compile Remove="Migrations\20180725180158_teste32.cs" />
-    <Compile Remove="Migrations\20180725181138_teste32.cs" />
-    <Compile Remove="Migrations\20180725181455_teste32.cs" />
-    <Compile Remove="Migrations\20180725182736_teste33.cs" />
-    <Compile Remove="Migrations\20180803140246_teste40.cs" />
-    <Compile Remove="Migrations\20180913204951_Evolucao_20180913_002.cs" />
-    <Compile Remove="Migrations\20180918181045_Evolucao_20180918_001.cs" />
-    <Compile Remove="Migrations\20180918182212_Evolucao_20180918_001.cs" />
-    <Compile Remove="Migrations\20180918183240_Evolucao_20180918_001.cs" />
-    <Compile Remove="Migrations\20180918184324_Evolucao_20180918_001.cs" />
-    <Compile Remove="Migrations\20181105131853_teste67.cs" />
-  </ItemGroup>
-  <ItemGroup>
     <PackageReference Include="CommonServiceLocator.NetCore" Version="1.3.1" />
     <PackageReference Include="dapper" Version="1.50.4" />
     <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.1.0" />
